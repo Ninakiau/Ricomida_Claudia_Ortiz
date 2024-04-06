@@ -1,0 +1,96 @@
+body {
+    font-family: "Cabin", sans-serif;
+    /* Google Font Raleway se utiliza para el body de esta página */
+}
+
+.custom-navbar {
+    background-color: #373A3C;
+    color: #FFFFFF;
+}
+
+#navigation-bar .navbar-brand {
+    color: #FFFFFF;
+    font-family: "Lobster", sans-serif;
+    font-size: 37px;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+#recipe-header .btn {
+    font-size: 13px;
+    color: #373A3C;
+    border-color: #DDDDDD;
+}
+
+#carousel img {
+    height: 50vh;
+    width: 30vh;
+
+}
+
+#recipe-content ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+#recipe-content ol {
+    padding: 0;
+    /* Elimina el relleno */
+    margin: 0;
+    /* Elimina los márgenes */
+}
+
+hr {
+    border: 1px;
+    border-style: solid;
+    border-color: #000000;
+    color: #000000;
+}
+
+.card img {
+    height: 30vh;
+    /* Altura de las imágenes de las tarjetas, ocupan el 30% del viewport */
+    width: 100%;
+    /* Ancho de las imágenes de las tarjetas, ocupan el 100% del contenedor */
+    object-fit: cover;
+    /* Ajuste de la imagen al contenedor, cubre el contenedor*/
+
+}
+
+/* newsletter */
+#newsletter {
+    background-color: #DC3545;
+    color: #FFFFFF;
+    height: 75vh;
+}
+
+#newsletter .btn {
+    width: 233px;
+    height: 40px;
+}
+
+.ricomida {
+    font-family: "Lobster", sans-serif;
+}
+
+/* footer */
+#footer-brand {
+    background-color: #373A3C;
+    /* Color de fondo del footer */
+    font-family: "Lobster", sans-serif;
+    font-size: 37px;
+    color: #FFFFFF;
+    /* Color del texto del footer */
+}
+
+/* asociado a las jQuery */
+.red-text {
+    color: red;
+}
